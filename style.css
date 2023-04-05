@@ -1,3 +1,33 @@
 body {
-  background: black;
+  background: #f5f5f5;
+  color: black;
+  padding-left: 13px;
+  padding-top: 12px;
+  margin: 0;
 }
+
+.box {
+  background: #fbedc2;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 21px;
+  width: 180px;
+  height: 90px;
+  position: relative;
+}
+
+.box .inner-text {
+  font-size: 3px;
+  padding-left: 13px;
+  padding-top: 12px;
+  position: fixed;
+}
+
+
+.more-border {
+  border: 3px solid white;
+}
+
+/* #first-box {
+  background: salmon;
+} */
